@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
         formButton = document.querySelector('.add button'),
         filmDiv = document.getElementById('filmDiv');
 
-    filmBg[0].style.cssText = ` background: url('../img/bg.jpg') `;
+    filmBg[0].style.cssText = ` background: url('img/bg.jpg') `;
 
     const movieDB = {
         movies: [
